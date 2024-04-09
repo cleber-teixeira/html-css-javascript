@@ -68,6 +68,12 @@ fieldset:nth-child(5) {
     width: 100%;
 }
 
+.container {
+    /* relative - indica que está posicionado
+        em relação à sua posição normal. */
+    position: relative;
+}
+
 .container input {
     margin: 10px;
     /* Define a largura do elemento. */
@@ -78,5 +84,38 @@ fieldset:nth-child(5) {
     border: none;
     background-color: #ededed;
     border-radius: 4px;
-    /* Parou no vídeo: 13:29 */
+    /* Cor da fonte. */
+    color: #333;
+    /* Tamanho da fonte. */
+    font-size: 18px;
+    /* Aumenta a largura do contorno do texto. */
+    font-weight: 700;
+    /* Gera espaço ao redor do conteúdo do elemento
+        (superior, direito, inferior e esquerdo) */
+    padding: 14px 10px 0 10px;
 }
+
+.container label {
+    /* Transforma o texto deixando todas as letras em maiúsculo. */
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #9d9d9d;
+    /* Posiciona qualquer elementode acordo com o
+        elemento pai, deixando de fazer parte do
+        fluxo comum do documento. */
+    position: absolute;
+    /* Define a altura entre linhas. */
+    line-height: 70px;
+    /* Posição vertical que necessita que o elemento
+        tenha uma posição determinada. */
+    top: 10px;
+    /* Distância da borda esquerda. */
+    left: 20px;
+    /* Impede a seleção de texto. */
+    user-select: none;
+    /* Se o elemento deve agir ou não
+        a eventos do ponteiro. */
+    pointer-events: none;
+}
+/* Parou no vídeo: 15:08 */
