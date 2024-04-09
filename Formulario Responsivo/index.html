@@ -15,7 +15,7 @@
             <form action="#" method="POST">
                 <h1>Criar sua conta</h1>
                 <!-- Agrupar elementos em um formulário. -->
-                <fieldset>
+                <legend>
                     <!-- Container genérico estilizável com CSS. -->
                     <!-- Usado quando não há outra tag container adequada. -->
                     <div class="container">
@@ -32,16 +32,16 @@
                         <label for="lastname">Sobrenome</label>
                     </div>
 
-                </fieldset>
+                </legend>
 
-                <fieldset>
+                <legend>
                     <div class="container">
                         <input type="email" id="email" required name="email">
                         <label for="email">E-mail</label>
                     </div>
-                </fieldset>
+                </legend>
 
-                <fieldset>
+                <legend>
                     <div class="container">
                         <input type="password" id="password" required name="senha">
                         <label for="password">Senha</label>
@@ -51,9 +51,9 @@
                         <input type="password" id="confirm" required name="confirmar">
                         <label for="confirm">Confirmar senha</label>
                     </div>
-                </fieldset>
+                </legend>
 
-                <fieldset>
+                <legend>
                     <div id="check">
                         <input type="checkbox" id="accept" required name="aceitar">
                         <label for="accept">Aceitar os termos de uso</label>
@@ -61,7 +61,7 @@
 
                     <!-- Cria um botão que envia os dados. -->
                     <button>Criar conta</button>
-                </fieldset>
+                </legend>
 
                 <!-- Link de redirecionamento. -->
                 <a href="#">Ler termos de uso</a>
