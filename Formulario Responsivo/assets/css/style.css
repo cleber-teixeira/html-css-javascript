@@ -2,120 +2,140 @@
 
 /* Define as propriedades a todos os elementos da página. */
 * {
-    /* O preenchimento e a borda serão incluídos na largura e na altura. */
-    box-sizing: border-box;
-    /* Remove a margem externa de todos os lados do elemento. */
-    margin: 0;
-    /* Gerar espaço ao redor do conteúdo do elemento. "Margem interna" */
-    /* Neste caso, remove o espaçamento interno de todos os lados do elemento. */
-    padding: 0;
+  /* O preenchimento e a borda serão incluídos na largura e na altura. */
+  box-sizing: border-box;
+  /* Remove a margem externa de todos os lados do elemento. */
+  margin: 0;
+  /* Gerar espaço ao redor do conteúdo do elemento. "Margem interna" */
+  /* Neste caso, remove o espaçamento interno de todos os lados do elemento. */
+  padding: 0;
 }
 
 body {
-    /* Torna o elemento um flex container, transformando todos os seus elementos internos (filhos) em flex itens. */
-    display: flex;
-    /* Alinha os flex-itens de acordo com o eixo do container. */
-    align-items: center;
-    /* Alinha os flex-itens no container de acordo com a direção. */
-    justify-content: center;
-    /* Altura mínima do elemento. */
-    /* Unidades de tamanho da tela vh (Viewport Height) e vw (Viewport Width). */
-    min-height: 100vh;
-    /* Cor do elemento. */
-    background: #43756c;
+  /* Torna o elemento um flex container, transformando todos os seus elementos internos (filhos) em flex itens. */
+  display: flex;
+  /* Alinha os flex-itens de acordo com o eixo do container. */
+  align-items: center;
+  /* Alinha os flex-itens no container de acordo com a direção. */
+  justify-content: center;
+  /* Altura mínima do elemento. */
+  /* Unidades de tamanho da tela vh (Viewport Height) e vw (Viewport Width). */
+  min-height: 100vh;
+  /* Cor do elemento. */
+  background: #43756c;
 }
 
 section {
-    background: #fff;
-    /* 30px superior e inferior
+  background: #fff;
+  /* 30px superior e inferior
         5px esquerda e direita. */
-    padding: 30px 5px;
-    /* Arredonda cantos. */
-    border-radius: 10px;
-    /* Adiciona sombra nos elementos. */
-    /* Direita, abaixo e degradê. */
-    box-shadow: 5px 5px 15px;
-    /* Tamanho máximo do elemento. */
-    max-width: 70vw;
+  padding: 30px 5px;
+  /* Arredonda cantos. */
+  border-radius: 10px;
+  /* Adiciona sombra nos elementos. */
+  /* Direita, abaixo e degradê. */
+  box-shadow: 5px 5px 15px;
+  /* Tamanho máximo do elemento. */
+  max-width: 70vw;
 }
 
 section h1 {
-    padding: 40px 10px;
-    /* Alinha o texto no centro. */
-    text-align: center;
+  padding: 40px 10px;
+  /* Alinha o texto no centro. */
+  text-align: center;
 }
 
 fieldset {
-    /* Remove a borda. */
-    border: none;
+  /* Remove a borda. */
+  border: none;
 }
 /* Conjunto Nomes */
 fieldset:nth-child(2) {
-    /* Vai alinhar os elementos um ao lado do outro. */
-    display: flex;
+  /* Vai alinhar os elementos um ao lado do outro. */
+  display: flex;
 }
 /* Conjunto Senha */
 fieldset:nth-child(4) {
-    display: flex;
-    /* Adiciona margem na parte superior. */
-    padding-top: 20px;
+  display: flex;
+  /* Adiciona margem na parte superior. */
+  padding-top: 20px;
 }
 /* Conjunto de Seleção */
 fieldset:nth-child(5) {
-    display: flex;
-    margin-top: 20px;
-    padding: 0 10px;
-    width: 100%;
+  display: flex;
+  margin-top: 20px;
+  padding: 0 10px;
+  width: 100%;
 }
 
 .container {
-    /* relative - indica que está posicionado
+  /* relative - indica que está posicionado
         em relação à sua posição normal. */
-    position: relative;
+  position: relative;
 }
 
 .container input {
-    margin: 10px;
-    /* Define a largura do elemento. */
-    width: calc(100% - 20px);
-    /* Define a altura do elemento. */
-    height: 70px;
-    /* Remove a borda. */
-    border: none;
-    background-color: #ededed;
-    border-radius: 4px;
-    /* Cor da fonte. */
-    color: #333;
-    /* Tamanho da fonte. */
-    font-size: 18px;
-    /* Aumenta a largura do contorno do texto. */
-    font-weight: 700;
-    /* Gera espaço ao redor do conteúdo do elemento
+  margin: 10px;
+  /* Define a largura do elemento. */
+  width: calc(100% - 20px);
+  /* Define a altura do elemento. */
+  height: 70px;
+  /* Remove a borda. */
+  border: none;
+  background-color: #ededed;
+  border-radius: 4px;
+  /* Cor da fonte. */
+  color: #333;
+  /* Tamanho da fonte. */
+  font-size: 18px;
+  /* Aumenta a largura do contorno do texto. */
+  font-weight: 700;
+  /* Gera espaço ao redor do conteúdo do elemento
         (superior, direito, inferior e esquerdo) */
-    padding: 14px 10px 0 10px;
+  padding: 14px 10px 0 10px;
 }
 
 .container label {
-    /* Transforma o texto deixando todas as letras em maiúsculo. */
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
-    color: #9d9d9d;
-    /* Posiciona qualquer elementode acordo com o
+  /* Transforma o texto deixando todas as letras em maiúsculo. */
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: #9d9d9d;
+  /* Posiciona qualquer elementode acordo com o
         elemento pai, deixando de fazer parte do
         fluxo comum do documento. */
-    position: absolute;
-    /* Define a altura entre linhas. */
-    line-height: 70px;
-    /* Posição vertical que necessita que o elemento
+  position: absolute;
+  /* Define a altura entre linhas. */
+  line-height: 70px;
+  /* Posição vertical que necessita que o elemento
         tenha uma posição determinada. */
-    top: 10px;
-    /* Distância da borda esquerda. */
-    left: 20px;
-    /* Impede a seleção de texto. */
-    user-select: none;
-    /* Se o elemento deve agir ou não
+  top: 10px;
+  /* Distância da borda esquerda. */
+  left: 20px;
+  /* Impede a seleção de texto. */
+  user-select: none;
+  /* Se o elemento deve agir ou não
         a eventos do ponteiro. */
-    pointer-events: none;
+  pointer-events: none;
+  /* Altera os valores das propriedades
+    suavemente em um tempo determinado. */
+  transition: 0.5s;
 }
-/* Parou no vídeo: 15:08 */
+
+/* ~ - Quando ocorrer o foco no input,
+  altere as propriedades do label. */
+.container input:focus ~ label,
+.container input:valid ~ label {
+  left: 20px;
+  top: -10px;
+  color: #00acd7;
+}
+
+#check input {
+  height: 25px;
+  width: 25px;
+  /* auto - Centraliza o elemento na horizontal.
+    0 - Não altera a margem esquerda e direita. */
+  margin: audo 0;
+}
+/* Parou no vídeo: 15:49 */
