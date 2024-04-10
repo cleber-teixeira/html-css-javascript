@@ -52,6 +52,7 @@ div#parallelogram {
 }
 
 section {
+  display: flex;
   background: #fff;
   /* 30px superior e inferior
         5px esquerda e direita. */
@@ -224,5 +225,14 @@ form a {
 
 form a:hover {
   color: #111;
+}
+
+section img {
+  width: 250px;
+  height: 250px;
+
+  /* auto - Centraliza horizontalmente
+    o elemento em seu container. */
+  margin: auto 40px;
 }
 /* Parou no vídeo: 15:49 */
