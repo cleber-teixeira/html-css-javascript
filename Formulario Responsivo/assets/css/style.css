@@ -235,4 +235,23 @@ section img {
     o elemento em seu container. */
   margin: auto 40px;
 }
+
+/* Regra @media
+  - Largura e altura da janela de visualização;
+  - Largura e altura do dispositivo;
+  - Orientação (o tablet / smartphone está no
+    modo paisagem ou retrato);
+  - Resolução.
+*/
+@media only screen and (max-width: 1080px) {
+  div#parallelogram {
+    height: 690px;
+  }
+
+  section img {
+    display: none;
+  }
+}
+
+
 /* Parou no vídeo: 15:49 */
