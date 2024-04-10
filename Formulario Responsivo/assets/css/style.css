@@ -138,4 +138,15 @@ fieldset:nth-child(5) {
     0 - Não altera a margem esquerda e direita. */
   margin: audo 0;
 }
+
+#check label {
+  margin: auto 10px;
+  color: #555;
+  transition: 0.5s;
+}
+
+#check input:checked ~ label,
+#check input:valid ~ label {
+  color:#00acd7;
+}
 /* Parou no vídeo: 15:49 */
