@@ -25,7 +25,30 @@ body {
   /* Unidades de tamanho da tela vh (Viewport Height) e vw (Viewport Width). */
   min-height: 100vh;
   /* Cor do elemento. */
-  background: #43756c;
+  background: #2e2e2e;
+}
+
+div#parallelogram {
+  /* Cor do elemento. */
+  background: #00acd7;
+  /* Define a largura do elemento. */
+  width: 1000px;
+  /* Define a altura do elemento. */
+  height: 720px;
+  /* Delimita o tamanho máximo do elemento. */
+  max-width: 70vw;
+  /* Arredonda cantos. */
+  border-radius: 10px;
+  /* Adiciona sombra nos elementos. */
+  box-shadow: 5px 5px 15px;
+  /* Modifica a inlicação do elemento em um plano 2D. */
+  /* Parâmetros: eixo x, eixo y. em graus. */
+  transform: skew(6deg, 3deg);
+  /* Posiciona qualquer elemento de acordo com o elemento
+  pai, deixando de fazer parte do fluxo comum do documento. */
+  position: absolute;
+  /* Define a ordem dos elementos quando sobrepostos. */
+  z-index: -1;
 }
 
 section {
