@@ -253,5 +253,35 @@ section img {
   }
 }
 
+@media only screen and (max-width: 510px) {
+  div#parallelogram {
+    display: none;
+  }
 
-/* Parou no vídeo: 15:49 */
+  section {
+    min-width: 95vw;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  fieldset:nth-child(2),
+  fieldset:nth-child(4),
+  fieldset:nth-child(5) {
+    flex-direction: column;
+  }
+
+  fieldset:nth-child(4) {
+    padding: 0;
+  }
+
+  div#check {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    margin-left: 0;
+  }
+}
