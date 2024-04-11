@@ -13,6 +13,7 @@ header {
 
 .nav-bar {
     display: flex;
+    height: 40px;
     justify-content: space-between;
     padding: 1.5rem 6rem;
 }
@@ -56,10 +57,10 @@ header {
 }
 
 .login-button button a {
-    text-decoration: none;
     color: #fff;
-    font-weight: 500;
     font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 .mobile-menu-icon {
@@ -70,7 +71,14 @@ header {
     display: none;
 }
 
-p {
+iframe {
+    position: relative;
+    background: #7ba2ac;
+    height: calc(100vh - 7.305vh);
+    width: calc(100vw - 0.15vw);
+}
+
+.main-container {
     position: absolute;
     left: 50%;
     top: 50%;
