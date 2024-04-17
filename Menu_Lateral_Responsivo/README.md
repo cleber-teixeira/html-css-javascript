@@ -2,7 +2,7 @@
 
 **Fonte:** YouTube
 
-**Canal:** [Larissa Kich](https://www.youtube.com/@larissakich)
+**Canal:** [Larissa Kich](https://www.youtube.com/@larissakich) - 15:55
 
 **Vídeo:** [Como fazer um MENU LATERAL responsivo (SIDEBAR) | HTML, CSS e JavaScript](https://youtu.be/lZVQGjTEX-w?feature=shared)
 
